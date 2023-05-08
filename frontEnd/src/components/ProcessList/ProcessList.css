@@ -1,0 +1,29 @@
+.process-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 10pt;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: #060a11;
+}
+
+.grid-1span2 {
+  grid-row: 1 / span 2;
+}
+
+.process-list__header {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding: 10px 10px;
+  background: #12101a;
+}
+
+.process-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 2fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+}

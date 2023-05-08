@@ -1,0 +1,35 @@
+.process{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 2fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+  }
+  
+  .process__kill {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .process__pid {
+    font-weight: bold;
+  }
+
+  .process__progress-value {
+    text-align: center;
+  }
+  
+  .process__progress {
+    height: 15px;
+    border-radius: 2px;
+    overflow: hidden;
+    background-color: #262335;
+  }
+  
+  .process__progress-bar {
+    height: 100%;
+    border-radius: 0px;
+    background-color: #007acc;
+    transition: width 0.3s ease-in-out;
+  }
+  
