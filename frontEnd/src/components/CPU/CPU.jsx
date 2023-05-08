@@ -19,7 +19,7 @@ function CPU(props) {
         >
             <h2>CPU</h2>
             <h1>{percentage}%</h1>
-            <div>Núcleos disponíveis: 1</div>
+            <div>Núcleos disponíveis: {cpu.cores}</div>
         </CircularProgressbarWithChildren>
     </div>
     )

@@ -40,14 +40,15 @@ app.get('/', (req, res) => {
     const [totalMem, usedMem] = output[1].match(/\d+/g).map(mem => parseInt(mem, 10));
     const memResult = {total: totalMem, used: usedMem};
 
-    const cpuResult = {used: 0}
+    const cpuResult = {used: 0, cores: 0}
     
     processes.map(process => {
       cpuResult.used += parseFloat(process.cpu)
     });
 
     if (cpuResult > 100) cpuResult = 100;
-    
+
+    cpuResult.cores = parseInt(shell.exec('nproc', {silent: true}).stdout)
     const response = {mem: memResult, processes, cpu: cpuResult}
     res.json(response);
   });
