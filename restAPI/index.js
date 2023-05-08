@@ -43,7 +43,6 @@ app.get('/', (req, res) => {
     const cpuResult = {used: 0}
     
     processes.map(process => {
-      console.log(process.cpu)
       cpuResult.used += parseFloat(process.cpu)
     });
 
