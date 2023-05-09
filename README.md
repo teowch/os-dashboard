@@ -17,7 +17,7 @@
 
 > You can try run with another versions, but it's not granted that will work.
 
-### Main libs used:
+### Main libraries used:
 * Express
 * ShellJS
 * ReactJS
