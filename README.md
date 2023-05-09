@@ -1,37 +1,44 @@
 # OS-Dashboard
-# Dashboard created to Operational System class at UTFPR - Curitiba.
-# This homework objective is observe system processes, CPU and RAM Memory.
 
-Operational System:
-    Ubuntu 22.04.2
-    
-Dependencies:
-    NodeJS
-    
-Versions: # You can try run with another versions, but I don't grant that it'll work.
-    node v18.5.0
-    npm v8.12.1
+<img src="dashboard.jpg" width="800px" />
 
-Technologies:
-    ReactJS # to frontEnd
-    Express # to restAPI
+> Dashboard created to Operational System class at UTFPR - Curitiba.<br>
+> This homework objective is observe system processes, CPU and RAM Memory.
 
-# You need to run frontEnd and restAPI.
+### Operacional System:
+* Ubuntu 22.04.2
 
-Running restAPI:
-    cd restAPI
-    npm install
-    node index.js
-   
-Running frontEnd:
-    cd frontEnd
-    npm install
-    npm run dev
-    
-# restAPI listen to port 3000.
-# Fell free to change it in the code.
-# # If you change the port in the restAPI, you'll also need to change inside the frontEnt, in the App.jsx file.
+### Technologies:
+* NodeJS
 
-# frontEnd uses port 5173 to run.
-# Access localhost:5173.
-# The terminal will show you the url.
+### Versions:
+* node v18.5.0
+* npm v8.12.1
+
+> You can try run with another versions, but it's not granted that will work.
+
+### Main libs used:
+* Express
+* ShellJS
+* ReactJS
+* Axios
+
+## You need to run frontEnd and restAPI.
+### Running restAPI:
+```    
+cd restAPI
+npm install
+node index.js
+```
+> restAPI listen to port 3000.<br>
+> Fell free to change it in the restAPI/<a href="restAPI/index.js">index.js</a> file.<br>
+> If you changed the port, you'll also need to change inside the frontEnt, in the frontEnd/<a href="frontEnd/src/App.jsx">App.jsx</a> file.
+### Running frontEnd:
+```
+cd frontEnd
+npm install
+npm run dev
+```
+> frontEnd uses port 5173 to run.<br>
+> Access localhost:5173.<br>
+> The terminal will show you the url.
