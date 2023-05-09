@@ -1,6 +1,6 @@
 # OS-Dashboard
 
-<img src="dashboard.jpg" width="800px" />
+<img src="assets/dashboard.png" width="800px" />
 
 > Dashboard created to Operational System class at UTFPR - Curitiba.<br>
 > This homework objective is observe system processes, CPU and RAM Memory.
