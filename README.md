@@ -23,7 +23,7 @@
 * ReactJS
 * Axios
 
-## You need to run frontEnd and restAPI.
+## Run frontEnd and restAPI
 ### Running restAPI:
 ```    
 cd restAPI
