@@ -3,7 +3,7 @@
 <img src="assets/dashboard.png" width="800px" />
 
 > Dashboard created to Operational System class at UTFPR - Curitiba.<br>
-> This homework objective is observe system processes, CPU and RAM Memory.
+> This homework objective is to observe realtime system processes, CPU and RAM Memory.
 
 ### Operacional System:
 * Ubuntu 22.04.2
