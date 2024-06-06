@@ -31,7 +31,7 @@ npm install
 node index.js
 ```
 > restAPI listen to port 3000.<br>
-> Fell free to change it in the restAPI/<a href="restAPI/index.js">index.js</a> file.<br>
+> Feel free to change it in the restAPI/<a href="restAPI/index.js">index.js</a> file.<br>
 > If you changed the port, you'll also need to change inside the frontEnt, in the frontEnd/<a href="frontEnd/src/App.jsx">App.jsx</a> file.
 ### Running frontEnd:
 ```
